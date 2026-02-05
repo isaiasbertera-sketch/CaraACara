@@ -1,0 +1,21 @@
+{
+  "case_id": "C001",
+  "title": "El silencio correcto",
+  "victim": "Rodolfo Ibarra (52), portero",
+  "summary": "Hallado muerto en el cuarto de mantenimiento. Horarios no cierran. Vecino demasiado colaborativo. Esposa demasiado prolija.",
+  "companion": [
+    "No es raro. Es prolijo. Eso a veces es peor.",
+    "Ojo con el vecino joven: quiere ser parte.",
+    "Si te apuran a cerrar, preguntate por qué."
+  ],
+  "interviews": [
+    { "id": "marta", "name": "Marta Ibarra (esposa)", "line": "Rodolfo era bueno. Siempre cumplía.", "obs": "Emoción contenida. Respuestas correctas." },
+    { "id": "leo", "name": "Leonardo Soria (vecino)", "line": "Yo colaboro en lo que sea.", "obs": "Sonríe cuando no corresponde." },
+    { "id": "gladys", "name": "Gladys Rojas (vecina)", "line": "Escuché pasos cerca de las 23.", "obs": "Miedo real. Baja la voz." }
+  ],
+  "clue": "No quiero problemas. Solo quiero que pare.",
+  "final": [
+    { "id": "fast", "label": "Cerrar rápido: imputar a Leonardo" },
+    { "id": "deep", "label": "Ir a fondo: Leonardo + encubrimiento de Marta" }
+  ]
+}
